@@ -1,0 +1,11 @@
+{
+  "name": "wasm-debug-test",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run build:debug && npm run build:release",
+    "build:debug": "cargo build",
+    "build:release": "cargo build --release"
+  }
+}
